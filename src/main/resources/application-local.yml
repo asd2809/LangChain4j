@@ -1,0 +1,6 @@
+langchain4j:
+  community:
+    dashscope:
+      chat-model:
+        model-name: qwen-max
+        api-key: sk-742825ec245d4752b23f1509dc8859db
