@@ -4,3 +4,12 @@ langchain4j:
       chat-model:
         model-name: qwen-max
         api-key: sk-742825ec245d4752b23f1509dc8859db
+      embedding-model:
+        api-key: sk-742825ec245d4752b23f1509dc8859db
+        model-name: text-embedding-v4
+#      流式输出
+      streaming-chat-model:
+        model-name: qwen-max
+        api-key: sk-742825ec245d4752b23f1509dc8859db
+bigmodel:
+  api-key: 007fe939f8a647ac8d55e09ae4cef004.ikuNUmrjgJIegDqn
