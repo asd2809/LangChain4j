@@ -7,3 +7,19 @@ server:
   port: 8081
   servlet:
     context-path: /api
+langchain4j:
+  community:
+    dashscope:
+      chat-model:
+        model-name: qwen-max   #模型名称
+        api-key: #阿里云的apikey(可自找)
+      embedding-model:         #可不填因为rag出了问题没修复
+        api-key:  #可不填因为rag出了问题没修复
+        model-name: text-embedding-v4 #可不填因为rag出了问题没修复
+      #      流式输出
+      streaming-chat-model:
+        model-name: qwen-max
+        api-key:  #阿里云的apikey(可另选)
+bigmodel:
+  api-key:  #BigModel的
+
